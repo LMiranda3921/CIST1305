@@ -1,0 +1,14 @@
+def main():
+    bMI = 0.0  #gives BMI a starting variable
+    bMI = calculate()
+    print("Your BMI is", bMI ) #prints BMI
+    
+    
+def calculate():
+    weight = int(input("Please enter in your weight in pounds: "))
+    height = float(input("Please enter in your height in feet: "))
+    bMI = weight * 703 / (height**2)
+    return bMI #the variable is returned back up to main function
+    
+
+main()   
