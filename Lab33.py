@@ -19,7 +19,7 @@ def enough4Bonus(monthlySales):
 
 #this function sees whether you get a day off 
 def dayOff(monthlySales):
-    if monthlySales >= 112500:
+    if monthlySales >= 90000:
         print("You get a day off!!! Woohoo!")
 
 # calls main
