@@ -8,16 +8,16 @@ def main():
     algNum6()
 
 def algNum6():
-    row = 0
-    column = 0
-    for row in range(10,):
-        print(row)
+    countOne = 0
+    while countOne <= 10:
+        print(countOne)
+        countOne = countOne + 1
+        countTwo = 0
+    while countTwo <= 15:
+      print("#")
+      countTwo = countTwo + 1
 
-            
-
-
-
-
+        
 
 
 def algNum5():
