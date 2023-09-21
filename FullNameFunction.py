@@ -6,7 +6,7 @@ def main():
     
     
 def addNames(nameOne, nameTwo):
-    name2gether = nameOne + nameTwo 
+    name2gether = nameOne, nameTwo 
     return name2gether
     
 main()
