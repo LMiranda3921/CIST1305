@@ -10,7 +10,7 @@ def bubbleSort(array):
         #range(n), also works but the outer loop
         #will repeat one more time than needed.
         #Last i elements are already in place
-        for j in range(0, n-i-1):
+        for j in range(0, n-i-1):  #n-i-1 is just using the i in the above loop and subtract one from that loop
             #We go through the array from 0 to n-i-1
             #Swap if the element found is greater then the next element
             if array[j] > array[j + 1]:
@@ -28,6 +28,6 @@ bubbleSort(array)
 
 #the for loop will keep looping in the For Each loop
 #it doesnt need a counter variable as it already counts for you
-print("Press enter for the sorted array: ")
+print("Sorted array is: ")
 for element in range(len(array)): 
     print("% d" % array[element], end = " ")
