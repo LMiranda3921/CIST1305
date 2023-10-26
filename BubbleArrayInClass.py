@@ -7,11 +7,17 @@ def bubbleSort(array):
     swapped = False
     #we are going through all the elements
     for i in range(n-1):
+        #range(n), also works but the outer loop
+        #will repeat one more time than needed.
+        #Last i elements are already in place
         for j in range(0, n-i-1):
+            #We go through the array from 0 to n-i-1
+            #Swap if the element found is greater then the next element
             if array[j] > array[j + 1]:
                 swapped = True
                 array[j], array[j + 1] = array[j + 1], array[j]
         if not swapped:
+            #if we dont need to make a single swap, it will exit the main loop
             return
 
         
