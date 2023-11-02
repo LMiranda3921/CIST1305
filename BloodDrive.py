@@ -54,9 +54,9 @@ def getAverage(totalPints, averagePints):
 #the writeToFile function
 def writeToFile(averagePints, pints):
     outFile = open("blood.txt", "a")
-    print(outFile, "Pints Each Hour")
-
+    outFile.write("Pints Each Hour:\n")
     count = 0
+    
     while count < 7:
         outFile.write(str(pints[count])+ "\n")
         count = count + 1
