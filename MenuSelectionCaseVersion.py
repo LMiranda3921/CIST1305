@@ -22,17 +22,7 @@ def main():
     while menuSelection < 1 or menuSelection > 4:
         print("That is an invalid selection.")
         menuSelection = int(input("Please choose a menu option: "))
-    #Performing selected operation
-    # if menuSelection == 1:
-    #     convertToCenti()
-    # elif menuSelection == 2:
-    #     convertToMeter()
-    # elif menuSelection == 3:
-    #     convertToKilo()
-    # elif menuSelection == 4:
-    #     print("Goodbye!!")
-    # else:
-    #     print("Invalid selection")
+    
 
     #Performing selected operation
     match menuSelection:
