@@ -1,8 +1,0 @@
-import random
-myArray = []
-
-for index in range(5):
-    number = random.randint(0, 100)
-    myArray.append(number)
-
-print(myArray)
