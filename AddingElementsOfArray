@@ -1,0 +1,6 @@
+pay = [83, 5, 6, 1, 13, 7, 2]
+total = 0
+for index in pay:
+    total = total + index
+
+print(total)
