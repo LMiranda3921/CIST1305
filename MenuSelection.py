@@ -26,12 +26,13 @@ def main():
     if menuSelection == 1:
         convertToCenti()
     elif menuSelection == 2:
-        convertToKilo()
+        convertToMeter()
     elif menuSelection == 3:
         convertToKilo()
     elif menuSelection == 4:
         print("Goodbye!!")
-
+    else:
+        print("Invalid selection")
 
 def convertToCenti():
     print(" ")
